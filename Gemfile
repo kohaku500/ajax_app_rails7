@@ -72,3 +72,13 @@ group :test do
 end
 
 gem 'pry-rails'
+
+group :production do
+  gem 'pg'
+end
+
+gem "standard"
+
+gem "rufo"
+
+gem "ruby-lsp"

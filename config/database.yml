@@ -17,8 +17,8 @@ development:
   <<: *default
   adapter: mysql2
   username: root
-  password:
-  host: localhost
+  password: 1234
+  host: 127.0.0.1
   database: ajax_app_rails7_development
 
 # Warning: The database defined as "test" will be erased and
@@ -28,8 +28,8 @@ test:
   <<: *default
   adapter: mysql2
   username: root
-  password:
-  host: localhost
+  password: 1234
+  host: 127.0.0.1
   database: ajax_app_rails7_test
 
 # As with config/credentials.yml, you never want to store sensitive information,
